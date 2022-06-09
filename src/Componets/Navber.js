@@ -26,7 +26,7 @@ const Navber = () => {
                                 <Link class="nav-link" to="/projects">Projects</Link >
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link" to={ }>Contack</Link >
+                                <Link class="nav-link" >Contack</Link >
                             </li>
 
 
