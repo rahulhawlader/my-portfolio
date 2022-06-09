@@ -1,0 +1,62 @@
+.home {
+
+    background-image: url('../../images/559e2c707e74a927bd0000ed.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.homeTextPart {
+    display: flex;
+    align-items: center;
+}
+
+.homeTextPart h3 {
+    color: rgba(107, 47, 86, 0.719);
+}
+
+.homeImgPart {
+    width: 50%;
+
+}
+
+.icon {
+    color: white;
+}
+
+.icon a {
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+
+
+.typewriter {
+    color: brown;
+}
+
+
+@media screen and (max-width: 768px) {
+    .home {
+        height: auto;
+    }
+
+    .homeTextPart {
+        text-align: center;
+        padding-top: 80px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .homeImgPart {
+
+        margin-left: 150px;
+    }
+}

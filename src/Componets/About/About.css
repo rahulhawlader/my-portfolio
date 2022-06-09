@@ -1,0 +1,20 @@
+.about {
+    background-color: black;
+}
+
+.aboutTextPart {
+    display: flex;
+    align-items: center;
+}
+
+.resume {
+    color: white;
+    background-color: rgb(218, 112, 183);
+    border-radius: 5px;
+}
+
+.resume:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(218, 112, 183);
+}

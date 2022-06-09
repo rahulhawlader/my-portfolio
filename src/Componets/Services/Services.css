@@ -1,0 +1,44 @@
+.service {
+    background-color: black;
+    color: white;
+}
+
+hr {
+    height: 2px;
+    background-image: linear-gradient(left, black, white, white, black);
+
+}
+
+.myServiceText {
+    text-align: center;
+}
+
+.myServiceText span {
+    color: blueviolet;
+}
+
+.service-icon {
+    color: rgba(226, 43, 43, 0.442) !important;
+}
+
+.service-icon span {
+    border-color: rgba(226, 43, 43, 0.855) !important;
+}
+
+.service {
+    transition: 1s;
+}
+
+.service:hover {
+    background-color: rgba(226, 43, 43, 0.855);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.service:hover .service-icon span {
+    color: white !important;
+}
+
+.service:hover .service-icon {
+    color: white !important;
+}

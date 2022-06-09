@@ -1,0 +1,27 @@
+.contack {
+    background-color: black;
+}
+
+hr {
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, black, white, white, black);
+}
+
+.contack button {
+    color: white;
+    border: 1px solid rgba(128, 128, 128, 0.421);
+    background-color: transparent;
+}
+
+.contack button:hover {
+    color: rgba(128, 128, 128, 0.421);
+    border: 1px solid rgba(128, 128, 128, 0.421);
+    background-color: transparent;
+}
+
+@media screen and (min-width: 769px) {
+
+    .mx-md-auto {
+        width: 50%;
+    }
+}
