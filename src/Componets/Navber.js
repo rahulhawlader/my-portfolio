@@ -20,13 +20,13 @@ const Navber = () => {
                                 <Link class="nav-link" to="/about">About</Link >
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link" to="/services">Services</Link >
+                                <Link class="nav-link" to="/service">Services</Link >
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link" to="/projects">Projects</Link >
+                                <Link class="nav-link" to="/project">Projects</Link >
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link" >Contack</Link >
+                                <Link class="nav-link" to="/contack" >Contack</Link >
                             </li>
 
 
@@ -47,18 +47,18 @@ const Navber = () => {
 
 
 
-                    <Link class="nav-link active" aria-current="page" to="#home">Home</Link >
+                    <Link class="nav-link active" aria-current="page" to="/home">Home</Link >
 
 
-                    <Link class="nav-link" to="#about">About</Link >
+                    <Link class="nav-link" to="/about">About</Link >
 
 
-                    <Link class="nav-link" to="#services">Services</Link >
+                    <Link class="nav-link" to="/service">Services</Link >
 
 
-                    <Link class="nav-link" to="#projects">Projects</Link >
+                    <Link class="nav-link" to="/project">Projects</Link >
 
-                    <Link class="nav-link" to="#contack">Contack</Link >
+                    <Link class="nav-link" to="/contack">Contack</Link >
 
 
 

@@ -7,6 +7,7 @@ import myPic from '../../images/286274176_2132366923600941_2065401978888479863_n
 
 
 
+
 const Home = () => {
     return (
         <div className='w-100 home id="home" '>
@@ -23,7 +24,7 @@ const Home = () => {
                                         autoStart: true,
                                         loop: true,
                                         delay: 60,
-                                        strings: ['I AM RAHUL ', 'I AM WEB-DEVELOPER']
+                                        strings: ['Hi I AM RAHUL ', 'I AM WEB-DEVELOPER']
 
 
                                     }}
@@ -48,6 +49,8 @@ const Home = () => {
 
 
             </div>
+
+
 
         </div>
     );
