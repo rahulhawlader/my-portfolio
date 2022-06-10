@@ -9,6 +9,10 @@ import Navber from "./Componets/Navber"
 import Footer from "./Componets/Footer/Footer"
 import './App.css';
 import MyHome from './Componets/MyHome/MyHome';
+import Blog from './Componets/Blogs/Blog';
+import Bicycle from './Componets/MoreDtails/BicycleDetails/Bicycle';
+import Fasion from './Componets/MoreDtails/FasionDetails/Fasion';
+import Gym from './Componets/MoreDtails/GymDetails/Gym';
 
 
 function App() {
@@ -23,6 +27,10 @@ function App() {
         <Route path="/service" element={<Service></Service>}></Route>
         <Route path="/project" element={<Project></Project>}></Route>
         <Route path="/contack" element={<Contack></Contack>}></Route>
+        <Route path="/blog" element={<Blog></Blog>}></Route>
+        <Route path="/bicycle" element={<Bicycle></Bicycle>}></Route>
+        <Route path="/fasion" element={<Fasion></Fasion>}></Route>
+        <Route path="/gym" element={<Gym></Gym>}></Route>
       </Routes>
       <Footer></Footer>
 

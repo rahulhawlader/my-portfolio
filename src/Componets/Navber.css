@@ -6,11 +6,11 @@
     font-size: xx-large;
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
-    color: darkgreen;
+
 }
 
 .navbar li {
-    padding: 0px 20px;
+    padding: 0px 10px;
 }
 
 .navbar li a {

@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "images1": "https://i.ibb.co/jw2cbNb/bicycle1.png",
+        "images2": "https://i.ibb.co/KLVYf4z/bicycle2.png",
+        "images3": "https://i.ibb.co/dt11n2H/bicycle3.png",
+        "Name": "Bicycle Parts Store",
+        "Details": "It it's a Bicycle Parts  Store parts manufacturer seller Website, Where a lot of Parts are Available fore wholesale sales.",
+        "bullet1": "Used daisy UI as a component's library of Tailwind CSS.",
+        "bullet2": "Firebase hook for Authentication. Also used React-Router, React Query, Nested Routes, Axios for make website more used friendly.",
+        "bullet3": "Stripe payment Method jwt to verify security and two different roles admin client are implemented .Data are stored on MongoDB."
+    },
+    {
+        "id": "2",
+        "images1": "https://i.ibb.co/HNfLTJq/gym2.png",
+        "images2": "https://i.ibb.co/dfN5f7g/gym3.png",
+        "images3": "https://i.ibb.co/F8pLm6j/gym1.png",
+        "Name": "Fasion ware House",
+        "Details": "It's a Fasion Ware House -based website. Where a lot of clothes are stored.",
+        "bullet1": "Frontend design with Tailwind CSS and Flowbite as component's library.",
+        "bullet2": "Used React-Router to turn the application into Single Page Application.",
+        "bullet3": "MongoDB for stored data and Express.js as Node.js framework. Backend data are hosting on Heroku."
+    },
+    {
+        "Id": "3",
+        "images1": " https://i.ibb.co/nR9x086/fasion.png",
+        "images2": "https://i.ibb.co/VNybGxj/fasion2.png",
+        "images3": "https://i.ibb.co/RjLQn71/fasion3.png",
+        "Name": "Personal Gym Trainer",
+        "Details": "This is a Personal Trainer Center website and details of what services he provides",
+        "bullet1": "•Used React-Router to turn the application into Single Page Application.",
+        "bullet2": "Used Bootstrap as a CSS framework and Rechart for a graph view of services.",
+        "bullet3": "•Used React Firebase hook for implement Email, Google, GitHub Login."
+    }
+]
