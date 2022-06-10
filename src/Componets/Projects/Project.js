@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import './Project.css'
-import project from '../../images/projects-concept-black-chalkboard-d-rendering-handwritten-top-view-office-desk-lot-business-office-supplies-79906734.jpg';
-import project2 from '../../images/download.jpg';
-import project3 from '../../images/photo-1454165804606-c3d57bc86b40.jpg';
+import project from '../../images/bicycle website.png';
+import project2 from '../../images/fasion house.png';
+import project3 from '../../images/gym traner.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -26,8 +26,15 @@ const Project = () => {
 
                             <div className='card-body'>
                                 <h4 className='card-title'>Bicycle parts store </h4>
-                                <p className=''>some quick example text to build on the card title and.....  </p>
-                                <a href='https://assignment-twelve-11736.web.app/' className='btn' alt="">More details</a>
+                                <p className=''>It it’s a Bicycle Parts  Store parts manufacturer seller Website, Where a lot of Parts are Available fore wholesale sales  </p>
+
+                                <a href='https://assignment-twelve-11736.web.app/' className='btn mx-4' alt="">Live Demo</a>
+
+                                <span>
+                                    <a className='btn mx-1' href='https://github.com/rahulhawlader/assinment-twelve' alt="">Client</a>
+
+                                    <a href='https://github.com/rahulhawlader/assignment-twelve-server' className='btn' alt="">server</a>
+                                </span>
 
                             </div>
                         </div>
@@ -39,8 +46,15 @@ const Project = () => {
 
                             <div className='card-body'>
                                 <h4 className='card-title'>Fasion House </h4>
-                                <p className=''>some quick example text to build on the card title and.....  </p>
-                                <a href='https://assignment-elevenn.web.app/' alt="" className='btn'>More details</a>
+                                <p className=''>It’s a Fasion Ware House -based website. Where a lot of clothes are stored  </p>
+
+                                <a href='https://assignment-elevenn.web.app/' alt="" className='btn mx-4'>Live Demo</a>
+
+                                <span>
+                                    <a href='https://github.com/rahulhawlader/assignment-eleven-client' alt="" className='btn mx-1'>Client</a>
+
+                                    <a href='https://github.com/rahulhawlader/assignment-ten-server' alt="" className='btn'>Server</a>
+                                </span>
 
                             </div>
                         </div>
@@ -53,8 +67,14 @@ const Project = () => {
 
                             <div className='card-body'>
                                 <h4 className='card-title'>Personal Gym trainer </h4>
-                                <p className=''>some quick example text to build on the card title and.....  </p>
-                                <a href='https://assignment-ten-bf51b.web.app/' className='btn'>More detail</a>
+                                <p className=''>This is a Personal Trainer Center website and details of what services he provides  </p>
+
+                                <a href='https://assignment-ten-bf51b.web.app/' className='btn mx-4'>Live Demo</a>
+                                <span>
+                                    <a href='https://github.com/rahulhawlader/assignment-ten' className='btn'>Client</a>
+
+
+                                </span>
 
                             </div>
                         </div>
